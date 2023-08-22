@@ -10,7 +10,45 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<form action="kokok.com" method="post">
+  <form>
+	  <label for="name">Name</label>
+	  <input id="name" type="text" placeholder="Name" required>
+	  <br>
+	  <label for="email">Email</label>
+	  <input id="email" type="email" placeholder="Email" required>
+	  <br>
+	  <caption>Gender:</caption>
+	  <br>
+	  <label for="gender_m">M</label>
+	  <input type ="radio" id="gender_m" name="Gender" required>
+	  <br>
+	  <label for="gender_f">F</label>
+	  <input type="radio" id="gender_f" name="Gender" required>
+       <br>
+	  <label for="cars">Choose your cars</label>
+	  <select id="cars" name="cars">
+		  <option>BMW</option>
+		  <option>Audi</option>
+		  <option>Mercedes</option>
+	  </select>
+	  <br>
+	  <label for="age">Age</label>
+      <input id="age" type="number" placeholder="Age" required>  
+       <br>
+	  <label for="dob">DOB</label>
+	  <input id="dob" type="date" name="DOB" required>
+       <br>
+	  <label for="tel">Phone Number</label>
+	  <input id="tel" type="Tel" placeholder="xxx-xxx-xxxx" name="Phone Number">
+       <br>
+	  <label for="password">Password</label>
+	  <input id="password" type="Password" placeholder="Password" required>
+	  <br>
+	  <label><input id="tos" type="Checkbox" value="I agress to the TOS">I agree to the TOS</label>
+	  <br>
+	  <input type ="submit" id="submit" value="Submit">
+  </form>
 </body>
 
 </html>
